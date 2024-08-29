@@ -1,0 +1,34 @@
+.portfolio-image {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center
+}
+.video-main-container {
+    width: 360px;
+    height: 250px;
+    overflow: hidden; /* Clip the scaled video to its bounds */
+    border-radius: 10px; /* Match the video's border-radius */
+    position: relative; /* Ensure the container respects its size */
+    transition: transform 0.3s ease;
+}
+.video-main-container iframe{
+    width: 360px;
+    height: 250px;
+    overflow: hidden; /* Clip the scaled video to its bounds */
+    border-radius: 10px; /* Match the video's border-radius */
+    position: relative; /* Ensure the container respects its size */
+    transition: transform 0.3s ease;
+}
+
+.videoss {
+    width: 100%; /* Make the video fill the container */
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px; /* Apply border-radius to the video itself */
+    
+}
+
+.video-main-container:hover {
+    transform: scale(1.08); /* Scale on hover */
+}
