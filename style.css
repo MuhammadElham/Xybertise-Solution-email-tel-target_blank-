@@ -2,33 +2,60 @@
     width: 100%;
     height: 200px;
     background-size: cover;
-    background-position: center
+    background-position: center;
 }
+
+.row-port-videos {
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+}
+
 .video-main-container {
-    width: 360px;
-    height: 250px;
-    overflow: hidden; /* Clip the scaled video to its bounds */
-    border-radius: 10px; /* Match the video's border-radius */
-    position: relative; /* Ensure the container respects its size */
-    transition: transform 0.3s ease;
-}
-.video-main-container iframe{
-    width: 360px;
-    height: 250px;
-    overflow: hidden; /* Clip the scaled video to its bounds */
-    border-radius: 10px; /* Match the video's border-radius */
-    position: relative; /* Ensure the container respects its size */
+    width: 100%;
+    height: 0;
+    padding-bottom: 70%; /* 16:9 Aspect Ratio */
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
     transition: transform 0.3s ease;
 }
 
-.videoss {
-    width: 100%; /* Make the video fill the container */
+.video-main-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
     height: 100%;
-    object-fit: cover;
-    border-radius: 10px; /* Apply border-radius to the video itself */
-    
+    border-radius: 10px;
 }
 
 .video-main-container:hover {
-    transform: scale(1.08); /* Scale on hover */
+    transform: scale(1.08);
+}
+
+.col-port {
+    flex: 0 0 calc(33.33% - 30px);
+    margin: 0 15px;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 1000px) {
+    .col-port {
+        flex: 0 0 calc(33.33% - 30px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .col-port {
+        flex: 0 0 calc(50% - 30px);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .col-port {
+        flex: 0 0 calc(100% - 30px);
+    }
 }
