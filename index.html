@@ -6,6 +6,8 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="test.css">
     <link
       rel="icon"
       type="image/x-icon"
@@ -189,10 +191,37 @@
         display: inline-block;
       }
 
-      .portfolio-category-dropdown .dropdown-button,
+      /* .portfolio-category-dropdown .dropdown-button,
       .portfolio-category-btn {
         font-size: 1.12em;
-      }
+      } */
+      /* Common styles for both buttons (dropdown and category) */
+.portfolio-category-dropdown .dropdown-button {
+    font-size: 1.12em; /* Keep this for the dropdown button */
+}
+
+/* Specific styles for portfolio category text (not a button) */
+.portfolio-category-btn {
+    font-size: 1.12em;
+    font-weight: bold; 
+    color: #333; 
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
+    padding: 10px 15px; 
+    border-radius: 5px; 
+    background-color: #f4f4f4;
+    display: inline-block;
+    transition: all 0.3s ease;
+    cursor: pointer; 
+}
+
+.portfolio-category-btn:hover {
+    color: #fff; 
+    background-color: #007BFF; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+    transform: scale(1.05); 
+}
+
 
       @media screen and (max-width: 557px) {
         .portfolio-category-dropdown .dropdown-button,
@@ -355,6 +384,7 @@
     <header class="header">
       <div class="header__container">
         <div class="header__wrapper">
+          <!-- Change in Logo -->
           <div class="brand-logo">
             <a href="https://xyberixsolutions.com">
               <picture>
@@ -371,6 +401,7 @@
           </div>
           <div class="navigation-wrapper">
             <nav class="navigation">
+              <!-- Change in Home -->
               <ul class="menu">
                 <li class="menu__menuitem">
                   <a
@@ -1422,6 +1453,7 @@
                 </div>
               </div>
             </nav>
+            
             <div class="mobNav">
               <ul class="mobNav__menu">
                 <li class="mobNav__menu--item">
@@ -3050,21 +3082,21 @@
                 </div>
               </div>
             </div>
+            <!-- Change in Video -->
             <div class="video-animation tab-content">
               <div class="row-port-videos">
-                <!-- Changes in Video -->
                 <div class="col-port web-portfolio-col">
                   <div class="web-portfolio-col-wrapper video-main-container">
                     <!-- 1 Video -->
                     <iframe
-                      src="https://www.youtube.com/embed/SF9qEjrXMbM?autoplay=1&mute=1&playsinline=1&loop=1&playlist=SF9qEjrXMbM"
-                      id="youtube-video"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="autoplay; loop"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
+                    src="https://www.youtube.com/embed/lE9zdUSHTKY?autoplay=1&mute=1&playsinline=1&loop=1&playlist=lE9zdUSHTKY&controls=0"
+                    id="youtube-video"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="autoplay; loop"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
                   </div>
                 </div>
 
@@ -3072,7 +3104,7 @@
                   <div class="web-portfolio-col-wrapper video-main-container">
                     <!-- 2 Video -->
                     <iframe
-                      src="https://www.youtube.com/embed/IQn12OpGNaY?autoplay=1&mute=1&playsinline=1&loop=1&playlist=IQn12OpGNaY"
+                      src="https://www.youtube.com/embed/B65Y8xuWsDY?autoplay=1&mute=1&playsinline=1&loop=1&playlist=B65Y8xuWsDY&controls=0"
                       id="youtube-video"
                       title="YouTube video player"
                       frameborder="0"
@@ -3087,21 +3119,22 @@
                   <div class="web-portfolio-col-wrapper video-main-container">
                     <!-- 3rd Video -->
                     <iframe
-                      src="https://www.youtube.com/embed/JQqmgoVw97g?autoplay=1&mute=1&loop=1&playlist=JQqmgoVw97g"
-                      id="youtube-video"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="autoplay; loop"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
+                    src="https://www.youtube.com/embed/W4KQbSHltJY?autoplay=1&mute=1&playsinline=1&loop=1&playlist=W4KQbSHltJY&controls=0"
+                    id="youtube-video"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="autoplay; loop"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  
                   </div>
                 </div>
                 <div class="col-port web-portfolio-col">
                   <div class="web-portfolio-col-wrapper video-main-container">
                     <!-- 4 Video -->
                     <iframe
-                      src="https://www.youtube.com/embed/LQLqOLfyWLI?autoplay=1&mute=1&loop=1&playlist=LQLqOLfyWLI"
+                      src="https://www.youtube.com/embed/1ofyBloaOzY?autoplay=1&mute=1&playsinline=1&loop=1&playlist=1ofyBloaOzY&controls=0"
                       id="youtube-video"
                       title="YouTube video player"
                       frameborder="0"
@@ -3116,7 +3149,7 @@
                   <div class="web-portfolio-col-wrapper video-main-container">
                     <!-- 5 Video -->
                     <iframe
-                      src="https://www.youtube.com/embed/YgMkhVoJsoo?autoplay=1&mute=1&loop=1&playlist=YgMkhVoJsoo"
+                      src="https://www.youtube.com/embed/eO2GecwIFG8?autoplay=1&mute=1&playsinline=1&loop=1&playlist=eO2GecwIFG8&controls=0"
                       id="youtube-video"
                       title="YouTube video player"
                       frameborder="0"
@@ -3130,7 +3163,7 @@
                   <div class="web-portfolio-col-wrapper video-main-container">
                     <!-- 6 Video  -->
                     <iframe
-                      src="https://www.youtube.com/embed/BEqEILSMV60?autoplay=1&mute=1&loop=1&playlist=BEqEILSMV60"
+                      src="https://www.youtube.com/embed/2bfx9THjNgQ?autoplay=1&mute=1&playsinline=1&loop=1&playlist=2bfx9THjNgQ&controls=0"
                       id="youtube-video"
                       title="YouTube video player"
                       frameborder="0"
@@ -3144,7 +3177,7 @@
                   <div class="web-portfolio-col-wrapper video-main-container">
                     <!-- 7 video  -->
                     <iframe
-                      src="https://www.youtube.com/embed/_nXgpZmb14Y?autoplay=1&mute=1&loop=1&playlist=_nXgpZmb14Y"
+                      src="https://www.youtube.com/embed/gSRP1YtozRQ?autoplay=1&mute=1&playsinline=1&loop=1&playlist=gSRP1YtozRQ&controls=0"
                       id="youtube-video"
                       title="YouTube video player"
                       frameborder="0"
@@ -3158,7 +3191,7 @@
                   <div class="web-portfolio-col-wrapper video-main-container">
                     <!-- 8 video  -->
                     <iframe
-                      src="https://www.youtube.com/embed/-0dG-9nR1Yw?autoplay=1&mute=1&loop=1&playlist=-0dG-9nR1Yw"
+                      src="https://www.youtube.com/embed/1sIuURktnk4?autoplay=1&mute=1&playsinline=1&loop=1&playlist=1sIuURktnk4&controls=0"
                       id="youtube-video"
                       title="YouTube video player"
                       frameborder="0"
@@ -3172,7 +3205,7 @@
                   <div class="web-portfolio-col-wrapper video-main-container">
                     <!-- 9 video  -->
                     <iframe
-                      src="https://www.youtube.com/embed/SF9qEjrXMbM?autoplay=1&mute=1&playsinline=1&loop=1&playlist=SF9qEjrXMbM"
+                      src="https://www.youtube.com/embed/5vjdOdrdqVs?autoplay=1&mute=1&playsinline=1&loop=1&playlist=5vjdOdrdqVs&controls=0"
                       id="youtube-video"
                       title="YouTube video player"
                       frameborder="0"
@@ -3185,9 +3218,8 @@
                 <!-- 10 video  -->
                 <div class="col-port web-portfolio-col">
                   <div class="web-portfolio-col-wrapper video-main-container">
-                    <!-- 9 video  -->
                     <iframe
-                      src="https://www.youtube.com/embed/SF9qEjrXMbM?autoplay=1&mute=1&playsinline=1&loop=1&playlist=SF9qEjrXMbM"
+                      src="https://www.youtube.com/embed/ouRiYtdmPA8?autoplay=1&mute=1&playsinline=1&loop=1&playlist=ouRiYtdmPA8&controls=0"
                       id="youtube-video"
                       title="YouTube video player"
                       frameborder="0"
@@ -3200,35 +3232,36 @@
                 <!-- 11 video -->
                 <div class="col-port web-portfolio-col">
                   <div class="web-portfolio-col-wrapper video-main-container">
-                    <!-- 9 video  -->
                     <iframe
-                      src="https://www.youtube.com/embed/SF9qEjrXMbM?autoplay=1&mute=1&playsinline=1&loop=1&playlist=SF9qEjrXMbM"
-                      id="youtube-video"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="autoplay; loop"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
+                    src="https://www.youtube.com/embed/sqwT_EWu4S0?autoplay=1&mute=1&playsinline=1&loop=1&playlist=sqwT_EWu4S0&controls=0"
+                    id="youtube-video"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="autoplay; loop"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  
                   </div>
                 </div>
                 <!-- 12 video -->
                 <div class="col-port web-portfolio-col">
                   <div class="web-portfolio-col-wrapper video-main-container">
-                    <!-- 9 video  -->
                     <iframe
-                      src="https://www.youtube.com/embed/SF9qEjrXMbM?autoplay=1&mute=1&playsinline=1&loop=1&playlist=SF9qEjrXMbM"
-                      id="youtube-video"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="autoplay; loop"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
+  src="https://www.youtube.com/embed/ZLT3HPN_Xek?autoplay=1&mute=1&playsinline=1&loop=1&playlist=ZLT3HPN_Xek&controls=0"
+  id="youtube-video"
+  title="YouTube video player"
+  frameborder="0"
+  allow="autoplay; loop"
+  referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen
+></iframe>
+
                   </div>
                 </div>
               </div>
             </div>
+            <!-- End -->
           </div>
         </section>
       </main>
@@ -3394,6 +3427,8 @@
                   </li>
                 </ul>
               </div>
+              <!-- Clutch -->
+              <img class="bbb" id="footer_img" src="Images/clutch.png" alt="" />
             </div>
             <div class="col-2 col-lg-4 collapse-deactive">
               <div
@@ -3476,6 +3511,7 @@
                 src="https://xyberixsolutions.com/assets/bbb-l-dark.png"
               />
             </div>
+            <!-- Change in footer -->
             <div class="col-2 col-lg-4 px-5 collapse-deactive">
               <div
                 class="animate fadein-Right"
@@ -3548,6 +3584,13 @@
                   </li>
                 </ul>
               </div>
+              <!-- Trustpilot -->
+              <img
+                class="bbb"
+                id="footer_img_trustpilot"
+                src="Images/Trustpilot_logo.png"
+                alt=""
+              />
             </div>
 
             <div class="newsletter">
