@@ -9942,10 +9942,17 @@ input {
     }
 }
 
+<<<<<<< HEAD
 /* Change in Logo */
 .brand-logo {
     display: inline-block;
 }
+=======
+.brand-logo {
+    display: inline-block;
+}
+
+>>>>>>> 37a7712a666a9d1f30f54b8e218628ff15e108c7
 .brand-logo img {
     filter: grayscale(100%);
     transition: filter 0.3s ease-in-out;
